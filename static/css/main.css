@@ -1,3 +1,17 @@
+:root {
+  --clr-blue-400: 231 69% 60%;
+  --clr-red-400: 0 94% 66%;
+  --clr-white: 0 0% 100%;
+  --clr-gray-400: 229 8% 60%;
+  --clr-gray-900: 229 31% 21%;
+
+  --clr-primary: var(--clr-blue-400);
+  --clr-accent: var(--clr-red-400);
+  --clr-white: var(--clr-white);
+  --clr-light: var(--clr-gray-400);
+  --clr-dark: var(--clr-gray-900);
+}
+
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 /* Box sizing rules */
 *,
@@ -27,9 +41,12 @@ html:focus-within {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+
   font-family: 'Rubik', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+
+  color: hsl(var(--clr-light));
 }
 
 /* A elements that don't have a class get default styles */
