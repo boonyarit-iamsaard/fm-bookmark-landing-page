@@ -12,7 +12,7 @@
 ### Style / Markup
 
 - [x] CSS Reset
-- [ ] Custom local font
+- [x] Custom local font
 - [ ] Custom properties
   - [ ] Colors
   - [ ] Font
