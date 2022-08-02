@@ -6,7 +6,7 @@
 
 - [x] Initialize Git repository
 - [x] Backup README\*.md files
-- [ ] Move all static files to `/static`
+- [x] Move all static files to `/static`
 - [ ] Ignore eslint in `.vscode/settings.json`
 
 ### Style / Markup
