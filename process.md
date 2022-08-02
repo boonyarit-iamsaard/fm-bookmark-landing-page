@@ -4,8 +4,8 @@
 
 ### Setup
 
-- [ ] Initialize Git repository
-- [ ] Backup README\*.md files
+- [x] Initialize Git repository
+- [x] Backup README\*.md files
 - [ ] Move all static files to `/static`
 - [ ] Ignore eslint in `.vscode/settings.json`
 
