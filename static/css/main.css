@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --clr-blue-400: 231 69% 60%;
   --clr-red-400: 0 94% 66%;
   --clr-white: 0 0% 100%;
@@ -10,6 +11,39 @@
   --clr-white: var(--clr-white);
   --clr-light: var(--clr-gray-400);
   --clr-dark: var(--clr-gray-900);
+
+  /* Typography */
+  --ff-sans: 'Rubik', sans-serif;
+
+  --ff-heading: var(--ff-sans);
+  --ff-body: var(--ff-sans);
+  --ff-link: var(--ff-sans);
+  --ff-button: var(--ff-sans);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+
+  --fs-200: 0.75rem;
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.25rem;
+  --fs-700: clamp(1.5rem, 6.4vw, 2rem);
+  --fs-800: clamp(1.875rem, 8vw, 3rem);
+
+  --fs-heading: var(--fs-800);
+  --fs-title: var(--fs-700);
+  --fs-subtitle: var(--fs-600);
+  --fs-body: var(--fs-300);
+  --fs-button: var(--fs-300); /* buttons and secondary nav (footer) */
+  --fs-nav: var(--fs-600); /* primary nav */
+}
+
+@media screen and (min-width: 900px) {
+  :root {
+    --fs-body: var(--fs-500);
+    --fs-nav: var(--fs-300);
+  }
 }
 
 /* https://piccalil.li/blog/a-modern-css-reset/ */
@@ -42,7 +76,8 @@ html:focus-within {
 body {
   min-height: 100vh;
 
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 

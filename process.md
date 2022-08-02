@@ -13,16 +13,18 @@
 
 - [x] CSS Reset
 - [x] Custom local font
-- [ ] Custom properties
-  - [ ] Colors
-  - [ ] Font
+- [x] Custom properties
+  - [x] Colors
+  - [x] Font
     #### Font sizes
-    | Area    | Mobile | VW  | Desktop | Class |
-    | ------- | ------ | --- | ------- | ----- |
-    | Heading |        |     |         |       |
-    | Body    |        |     |         |       |
-    | Link    |        |     |         |       |
-    | Button  |        |     |         |       |
+    | Area     | Mobile   | VW    | Desktop  | Class        |
+    | -------- | -------- | ----- | -------- | ------------ |
+    | Heading  | 1.875rem | 8vw   | 3rem     | .fs-heading  |
+    | Title    | 1.5rem   | 6.4vw | 2rem     | .fs-title    |
+    | Subtitle | 1.25rem  |       | 1.25rem  | .fs-subtitle |
+    | Body     | 0.875rem |       | 1.125rem | .fs-body     |
+    | Nav      | 1.25rem  |       | 0.875rem | .fs-nav      |
+    | Button   | 0.875rem |       | 0.875rem | .fs-button   |
 - [ ] Utility classes
 - [ ] Change logo color
 - [ ] Sections
