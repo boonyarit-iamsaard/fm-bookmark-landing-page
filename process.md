@@ -11,7 +11,7 @@
 
 ### Style / Markup
 
-- [ ] CSS Reset
+- [x] CSS Reset
 - [ ] Custom local font
 - [ ] Custom properties
   - [ ] Colors
