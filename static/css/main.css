@@ -8,7 +8,6 @@
 
   --clr-primary: var(--clr-blue-400);
   --clr-accent: var(--clr-red-400);
-  --clr-white: var(--clr-white);
   --clr-light: var(--clr-gray-400);
   --clr-dark: var(--clr-gray-900);
 
@@ -63,9 +62,6 @@
   margin: 0;
   padding: 0;
   font: inherit;
-
-  /* enable this for debugging */
-  /* background-color: rgb(255, 192, 203, 0.075) !important; */
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -122,10 +118,9 @@ svg {
 /*
 Utility classes
 */
-
 /* Layout */
 .container {
-  width: min(100%, 56.25em);
+  width: min(100% - 4rem, 73em);
   margin-inline: auto;
 }
 
@@ -235,4 +230,10 @@ Footer
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 56.1875em) {
+  .container {
+    width: calc(100% - 4rem);
+  }
 }
