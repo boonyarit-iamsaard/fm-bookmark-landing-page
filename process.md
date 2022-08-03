@@ -25,10 +25,10 @@
     | Body     | 0.875rem |       | 1.125rem | .fs-body     |
     | Nav      | 1.25rem  |       | 0.875rem | .fs-nav      |
     | Button   | 0.875rem |       | 0.875rem | .fs-button   |
-- [ ] Utility classes
-- [ ] Change logo color
+- [x] Utility classes
+- [x] Change logo color
 - [ ] Sections
-  - [ ] Header / Nav
+  - [x] Header and primary navigation
   - [ ] Hero
     - [ ] Blue background object
   - [ ] Features
@@ -37,10 +37,11 @@
   - [ ] Download section
   - [ ] FAQ accordion
   - [ ] Newsletter subscription
-  - [ ] Footer
+  - [ ] Footer and secondary navigation
 
 ### Functionalities
 
+- [x] Navigation menu
 - [ ] FAQ accordion
 - [ ] Input email validation
   - [ ] Not empty
