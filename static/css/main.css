@@ -3,7 +3,7 @@
   --clr-blue-400: 231 69% 60%;
   --clr-red-400: 0 94% 66%;
   --clr-white: 0 0% 100%;
-  --clr-gray-400: 229 8% 60%;
+  --clr-gray-400: 229 8% 48.75%; /* increase contrast ratio from the original 229 8% 60% */
   --clr-gray-900: 229 31% 21%;
 
   --clr-primary: var(--clr-blue-400);
