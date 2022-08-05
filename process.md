@@ -29,8 +29,8 @@
 - [x] Change logo color
 - [ ] Sections
   - [x] Header and primary navigation
-  - [ ] Hero
-    - [ ] Blue background object
+  - [x] Hero
+    - [x] Blue background object
   - [ ] Features
     - [ ] Tabs
     - [ ] Blue background object
@@ -41,6 +41,7 @@
 
 ### Functionalities
 
+- [ ] Smart navigation menu
 - [x] Navigation menu
 - [ ] FAQ accordion
 - [ ] Input email validation
